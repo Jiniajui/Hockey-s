@@ -450,60 +450,70 @@
 
             <section class="hockey-touch mt-12 lg:w-[1320px] w-[375px] mx-auto">
               <div class="hockey-touch-text text-center border-y-2 border-y-gray-300 border-dashed lg:h-[150px] h-[200px]">
-                <h3 class="text-3xl font-bold mt-10">Clients Question</h3>
+                <h3 class="text-3xl font-bold mt-10">Get In Touch</h3>
                 <p class="text-base">Your hard work, dedication, and teamwork have truly paid off. May this win be the start of many more successes in your future endeavors on the ice.</p>
               </div>
-              <div class="hockey-touch-content lg:flex lg:flex-row lg:justify-between flex-col items-center mt-12">
-                <div class="hockey-touch-contact shadow-2xl rounded-2xl border-2 border-slate-100 border-solid p-10 lg:w-[470px] w-[375px]">
-                  <div class="hockey-touch-phn lg:w-[374px] lg:h-[216px] w-[287px] h-[184px] bg-lime-50 rounded-2xl mb-10 p-10">
+              <div class="hockey-touch-content lg:flex lg:flex-row lg:justify-between flex-col items-center mt-12 gap-0">
+                <div class="hockey-touch-contact shadow-2xl rounded-2xl border-2 border-slate-100 border-solid p-10 lg:w-[550px] w-[375px] lg:h-[800px]">
+                  <div class="hockey-touch-phn lg:w-[470px] lg:h-[216px] w-[287px] h-[184px] bg-lime-50 rounded-2xl mb-10 p-10">
                     <img src="Images/Group 1171275317.png" alt="" class="w-[48px] h-[48px]">
-                    <p>Phone Number :</p>
-                    <h6>(+62) 123-321-543</h6>
+                    <p class="text-base text-gray-400">Phone Number :</p>
+                    <h6 class="text-base font-bold text-black">(+62) 123-321-543</h6>
                   </div>
-                  <div class="hockey-touch-mail lg:w-[374px] lg:h-[216px] w-[287px] h-[184px] bg-yellow-50 rounded-2xl mb-10 p-10">
+                  <div class="hockey-touch-mail lg:w-[470px] lg:h-[216px] w-[287px] h-[184px] bg-yellow-50 rounded-2xl mb-10 p-10">
                     <img src="Images/Group 1171275318.png" alt="" class="w-[48px] h-[48px]">
-                    <p>Email :</p>
-                    <h6 class="w-[48px] h-[48px]">hockeys@support.com</h6>
+                    <p class="text-base text-gray-400">Email :</p>
+                    <h6 class="text-base font-bold text-black">hockeys@support.com</h6>
                   </div>
-                  <div class="hockey-touch-address lg:w-[374px] lg:h-[216px] w-[287px] h-[184px] bg-cyan-50 rounded-2xl p-10">
+                  <div class="hockey-touch-address lg:w-[470px] lg:h-[216px] w-[287px] h-[184px] bg-cyan-50 rounded-2xl p-10">
                     <img src="Images/Group 1171275321.png" alt="">
-                    <p>Location :</p>
-                    <h6>152/1 Mohakhali Wireless Gate</h6>
+                    <p class="text-base text-gray-400">Location :</p>
+                    <h6 class="text-base font-bold text-black">152/1 Mohakhali Wireless Gate</h6>
                   </div>
                 </div>
-                <div class="hockey-touch-message">
-                  <form action="">
-                    <div class="hockey-name-mail">
+                <div class="hockey-touch-message lg:w-[700px] w-[375px] h-[800px] lg:p-[50px] mt-10">
+                    <div class="hockey-name-mail lg:flex lg:flex-row lg:justify-start flex-col items-center">
                       <div class="user-name">
-                        <label for="fname">Your Name</label>
-                        <input type="text" name="uname" placeholder="Enter your full name" id="fname">
+                        <label for="fname" class="text-xl font-bold text-black mb-5">Your Name</label>
+                        <br>
+                        <input type="text" name="uname" placeholder="Enter your full name" id="fname" class="lg:w-[324px] h-[64px]  w-[335px] bg-gray-100 placeholder:text-gray-400 rounded-xl pl-5 mr-5 mb-5">
                       </div>
                       <div class="user-mail">
-                        <label for="mail">Your Email</label>
-                        <input type="email" name="umail" placeholder="Enter your email" id="mail">
+                        <label for="mail" class="text-xl font-bold text-black mb-5">Your Email</label>
+                        <br>
+                        <input type="email" name="umail" placeholder="Enter your email" id="mail" class="lg:w-[324px] h-[64px]  w-[335px] bg-gray-100 placeholder:text-gray-400 rounded-xl pl-5 mb-5">
                       </div>
                     </div>
-                    <div class="hockey-subject-phn">
+                    <div class="hockey-subject-phn lg:flex lg:flex-row lg:justify-start flex-col items-center">
                       <div class="user-subject">
-                        <label for="fsubject">Subject</label>
-                        <input type="text" name="subject" placeholder="Enter your subject" id="fsubject">
+                        <label for="fsubject" class="text-xl font-bold text-black mb-5">Subject</label>
+                        <br>
+                        <input type="text" name="subject" placeholder="Enter your subject" id="fsubject" class="lg:w-[324px] h-[64px]  w-[335px] bg-gray-100 placeholder:text-gray-400 rounded-xl pl-5 mr-5 mb-5">
                       </div>
                       <div class="user-number">
-                        <label for="fnumber">Phone Number</label>
-                        <input type="number" name="number" placeholder="Enter your phone number" id="fname">
+                        <label for="fnumber" class="text-xl font-bold text-black mb-5">Phone Number</label>
+                        <br>
+                        <input type="number" name="number" placeholder="Enter your phone number" id="fname" class="lg:w-[324px] h-[64px]  w-[335px] bg-gray-100 placeholder:text-gray-400 rounded-xl pl-5 mb-5">
                       </div>
                     </div>
                     <div class="user-msg">
-                      <label for="msg">Message</label>
-                      <textarea cols="30" rows="5" placeholder="Write your message" id="msg"></textarea>
+                      <label for="msg" class="text-xl font-bold text-black">Message</label>
+                      <br>
+                      <textarea cols="30" rows="5" placeholder="Write your message" id="msg" class="placeholder:outline-none lg:w-[672px] lg:h-[350px] w-[335px] h-[200px] bg-gray-100 rounded-xl p-5 resize-none"></textarea>
                     </div>
-                    <div class="send-msg">
+                    <div class="send-msg text-center w-[335px] lg:w-[672px] bg-rose-500 mt-5 px-[24px] py-[15px] text-white text-xl font-bold rounded-2xl">
                       <input type="submit" value="Send Message">
                     </div>
-                  </form>
+                  
                 </div>
               </div>
-              <div class="hockey-touch-social"></div>
+              <div class="hockey-touch-social lg:w-[1320px] lg:h-[150px] w-[375px] h-[140px] mx-auto text-center bg-gray-100 rounded-2xl pt-[30px]">
+                  <h3 class="text-2xl font-bold mb-5">Social media</h3>
+                  <a href="" class="w-[174px] h-[64px] text-3xl mr-10"><i class="fa-brands fa-twitter"></i></a>
+                  <a href="" class="w-[174px] h-[64px] text-3xl mr-10"><i class="fa-brands fa-facebook"></i></a>
+                  <a href="" class="w-[174px] h-[64px] text-3xl mr-10"><i class="fa-brands fa-instagram"></i></a>
+                  <a href="" class="w-[174px] h-[64px] text-3xl mr-10"><i class="fa-brands fa-github"></i></a>
+              </div>
             </section>
           <!-- End the Get in touch section -->
           
@@ -515,8 +525,30 @@
         </main>
     
         <!-- Start the main section -->
-        <footer>
-    
+        <footer class="footer p-10 bg-black text-base-content lg:w-[1520px] mt-[50px] w-[375px]">
+          <nav class="mr-[100px]">
+            <h6 class="footer-title text-white">Get In Touch</h6>
+          </nav> 
+          <nav>
+            <h6 class="footer-title">Services</h6> 
+            <a class="link link-hover">Branding</a>
+            <a class="link link-hover">Design</a>
+            <a class="link link-hover">Marketing</a>
+            <a class="link link-hover">Advertisement</a>
+          </nav> 
+          <nav>
+            <h6 class="footer-title">Company</h6> 
+            <a class="link link-hover">About us</a>
+            <a class="link link-hover">Contact</a>
+            <a class="link link-hover">Jobs</a>
+            <a class="link link-hover">Press kit</a>
+          </nav> 
+          <nav class="ml-[100px]">
+            <h6 class="footer-title">Legal</h6> 
+            <a class="link link-hover">Terms of use</a>
+            <a class="link link-hover">Privacy policy</a>
+            <a class="link link-hover">Cookie policy</a>
+          </nav>
         </footer>
     
         
